@@ -10,3 +10,35 @@
 Code file: run_analysis.R - Main function to perform the required task
 
 data file: aggregate.txt - the aggregated dataset
+
+
+How the function works:
+
+Step 1: First lets create our lookup vectors
+
+
+STEP 2: Read the features and extact only those column indexes that match the "mean" or "std" pattern
+        that way, we'll be able to dynamically retrieve the proper column names even of the "feature" file gets 
+        re-arranged
+
+STEP 3:  Read the features.txt that maps the column indexes to the data labels
+
+
+STEP 4:  Extract only required (mean and std) column indexes using RegEx search pattern. 
+
+STEP 5:  Read Test Data
+
+STEP 6:  Read Test Activities (type of activity, such as Walking, Seating, etc)
+
+STEP 7:  Read the main test data
+
+STEP 8: Set the readable column names for test data
+
+STEP 9: Merge Activities, Subjects and main test data
+
+
+STEP 10: Repeat steps 5 to 9 for the train 
+
+STEP 11: Merge test and train data by the common fields
+
+STEP 12: Create the aggregate data set and write it to disk
