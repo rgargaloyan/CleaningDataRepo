@@ -6,6 +6,11 @@
 # Appropriately labels the data set with descriptive variable names. 
 # From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+Please NOTE!
+I re-submitted the run_analysis.R file after the deadline, however I did not make any changes to it after SUN 2PM. My initial submission was the very old version
+of that file, which I mistakenly copied to my repo from my local "draft" folder.
+I apologize for any inconvenience it may cause.
+
 
 Code file: run_analysis.R - Main function to perform the required task
 
